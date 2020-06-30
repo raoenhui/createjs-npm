@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-tnpm install createjs-npm -S
+jnpm install @zero/jdyfe-createjs -S
 ```
 
 ## 使用
@@ -13,22 +13,22 @@ tnpm install createjs-npm -S
 ```js
 // 引入后和官方 createjs 使用无任何区别
 // 引入全部模块
-import createjs from 'createjs-npm';
+import createjs from '@zero/jdyfe-createjs';
 
 // 只引入 easeljs
-import createjs from 'createjs-npm/lib/easel';
+import createjs from '@zero/jdyfe-createjs';
 
 // 只引入 preload
-import createjs from 'createjs-npm/lib/preload';
+import createjs from '@zero/jdyfe-createjs';
 
 // 只引入 tween
-import createjs from 'createjs-npm/lib/tween';
+import createjs from '@zero/jdyfe-createjs/lib/tween';
 
 // 只引入 sound
-import createjs from 'createjs-npm/lib/sound';
+import createjs from '@zero/jdyfe-createjs/lib/sound';
 
 // 只引入某插件，如ColorPlugin
-import 'createjs-npm/lib/ColorPlugin';
+import '@zero/jdyfe-createjs/lib/ColorPlugin';
 ```
 
 ## 包含
@@ -57,6 +57,3 @@ import 'createjs-npm/lib/ColorPlugin';
 ## 原理
 - 利用 imports-loader 进行导入到当前,将`this`指向windows
 - 利用 exports-loader 将弄好 createjs 的模块导出到全局
-
-## 案例
-[creatjs案例](https://github.com/raoenhui/react-example/blob/master/src/AniCreatejs/index.jsx)

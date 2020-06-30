@@ -1,5 +1,5 @@
 {
-  "name": "createjs-npm",
+  "name": "@zero/jdyfe-createjs",
   "version": "0.1.2",
   "description": "createjs 的 cmd 标准版本，可以像 npm 包一样引入使用，同时也支持单个模块使用",
   "main": "lib/create.js",
@@ -7,8 +7,8 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Tw93",
-    "email": "tw93@qq.com"
+    "name": "raoenhui",
+    "email": "raoenhui@jd.com"
   },
   "license": "MIT",
   "devDependencies": {
