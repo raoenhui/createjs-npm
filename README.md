@@ -1,11 +1,11 @@
-# createjs-npm
+# jdyfe-createjs
 
 > createjs 的 cmd 标准版本，可以像 npm 包一样引入使用，同时也支持单个模块使用
 
 ## 安装
 
 ```bash
-jnpm install @zero/jdyfe-createjs -S
+npm install jdyfe-createjs -S
 ```
 
 ## 使用
